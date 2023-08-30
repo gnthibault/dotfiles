@@ -51,6 +51,13 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Git autocompletion
+# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+# chmod +x ~/.git-completion.bash
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 
 # Google cloud sdk
 # install gcloud client: 
