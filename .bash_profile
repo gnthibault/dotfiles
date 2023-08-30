@@ -50,3 +50,15 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+# Google cloud sdk
+# install gcloud client: 
+# wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-444.0.0-darwin-arm.tar.gz?hl=fr
+# tar -xvf ./google-cloud-cli-444.0.0-darwin-arm.tar.gz
+# cd cd google-cloud-sdk/
+#./install.sh --install-python false --no-compile-python
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/gnthibault/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/gnthibault/Downloads/google-cloud-sdk/path.bash.inc'; fi
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/gnthibault/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/gnthibault/Downloads/google-cloud-sdk/completion.bash.inc'; fi
