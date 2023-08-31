@@ -43,7 +43,6 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-brew install php
 brew install gmp
 
 # Install font tools.
@@ -53,19 +52,16 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
 brew install bfg
 brew install binutils
 brew install binwalk
 brew install cifer
 brew install dex2jar
 brew install dns2tcp
-brew install fcrackzip
 brew install foremost
-brew install hashpump
 brew install hydra
-brew install john
 brew install knock
+brew install netcat
 brew install netpbm
 brew install nmap
 brew install pngcheck
@@ -96,6 +92,14 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+# Python
+brew install python@3.9 
+brew install virtualenv
+brew install graphviz
+
+# Install latex support
+brew install --cask mactex
 
 # Remove outdated versions from the cellar.
 brew cleanup

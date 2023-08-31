@@ -51,6 +51,12 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Python related installation vars
+export GRAPHVIZ_DIR="$(brew --prefix graphviz)"
+export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Headers
+export CPLUS_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Headers
+
+
 # Git autocompletion
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 # chmod +x ~/.git-completion.bash
