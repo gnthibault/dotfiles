@@ -93,6 +93,9 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Make sure git has gpg path
+git config --global gpg.program "$(which gpg)"
+
 # Python
 brew install python@3.9 
 brew install virtualenv
