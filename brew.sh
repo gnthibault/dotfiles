@@ -98,8 +98,10 @@ git config --global gpg.program "$(which gpg)"
 git config --global commit.gpgsign false
 
 # Python
+brew tap homebrew/core
 brew install graphviz
 brew install jupyter
+brew install pyenv
 brew install python@3.9 
 brew install virtualenv
 
