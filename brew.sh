@@ -93,13 +93,15 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
-# Make sure git has gpg path
+# Make sure git has gpg path in case it is needed
 git config --global gpg.program "$(which gpg)"
+git config --global commit.gpgsign false
 
 # Python
+brew install graphviz
+brew install jupyter
 brew install python@3.9 
 brew install virtualenv
-brew install graphviz
 
 # Install latex support
 brew install --cask mactex
