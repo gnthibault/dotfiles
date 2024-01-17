@@ -97,6 +97,10 @@ brew install zopfli
 git config --global gpg.program "$(which gpg)"
 git config --global commit.gpgsign false
 
+# Pyenv
+brew install openssl readline sqlite3 xz zlib
+curl https://pyenv.run | bash
+
 # Python
 brew tap homebrew/core
 brew install graphviz
