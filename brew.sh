@@ -60,6 +60,7 @@ brew install dex2jar
 brew install dns2tcp
 brew install foremost
 brew install hydra
+brew install jq
 brew install knock
 brew install netcat
 brew install netpbm
