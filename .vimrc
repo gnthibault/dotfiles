@@ -3,10 +3,10 @@
 set nocompatible
 
 " Set Dein base path (required)
-let s:dein_base = '/Users/gnthibault/.local/share/dein'
+let s:dein_base = '/Users/thibault.notargiacom/.local/share/dein'
 
 " Set Dein source path (required)
-let s:dein_src = '/Users/gnthibault/.local/share/dein/repos/github.com/Shougo/dein.vim'
+let s:dein_src = '/Users/thibault.notargiacom/.local/share/dein/repos/github.com/Shougo/dein.vim'
 
 " Set Dein runtime path (required)
 execute 'set runtimepath+=' . s:dein_src
@@ -46,7 +46,7 @@ set shiftwidth=2
 set softtabstop=2
 
 " Enable right-click
-set mouse-=a 
+set mouse-=a
 
 " Starts NerdTree by default.
 autocmd vimenter * NERDTree
