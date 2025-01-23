@@ -1,23 +1,18 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+colorscheme darkblue "pablo
 
 " Make Vim more useful
 set nocompatible
 
 " Set Dein base path (required)
 let s:dein_base = '/Users/thibault.notargiacom/.local/share/dein'
-
 " Set Dein source path (required)
 let s:dein_src = '/Users/thibault.notargiacom/.local/share/dein/repos/github.com/Shougo/dein.vim'
-
 " Set Dein runtime path (required)
 execute 'set runtimepath+=' . s:dein_src
-
 " Call Dein initialization (required)
 call dein#begin(s:dein_base)
-
 call dein#add(s:dein_src)
 
 " Your plugins go here:
@@ -38,9 +33,9 @@ if has('filetype')
 endif
 
 " Enable syntax highlighting
-if has('syntax')
-  syntax on
-endif
+"if has('syntax')
+syntax on
+"#endif
 
 " Indent with 2 spaces
 "filetype plugin indent on
