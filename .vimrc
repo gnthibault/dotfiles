@@ -1,5 +1,9 @@
-" Ward off unexpected things that your distro might have made, as
-" well as sanely reset options when re-sourcing .vimrc
+" Use the Solarized Dark theme
+set background=dark
+colorscheme solarized
+let g:solarized_termtrans=1
+
+" Make Vim more useful
 set nocompatible
 
 " Set Dein base path (required)
